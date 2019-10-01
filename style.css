@@ -155,3 +155,11 @@ table {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 592px 664px;
 }
+
+.big{
+  grid-column: 2/4;
+}
+
+.aside{
+  grid-column: 1/1;
+}
