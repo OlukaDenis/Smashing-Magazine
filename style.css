@@ -205,3 +205,18 @@ table {
 .footer-container {
   height: 698px;
 }
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav img{
+
+}
