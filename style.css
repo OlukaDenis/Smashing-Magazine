@@ -132,7 +132,8 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid red !important;
+  /* border: 1px solid red !important; */
+  border-radius: 10px;
 }
 
 html {
@@ -168,15 +169,12 @@ html {
   grid-column: 1 / 3;
 }
 
-.nav {
-  background-color: #333;
-  color: white;
-}
 
 .type1-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 592px 664px;
+  grid-gap: 15px;
 }
 
 .big {
@@ -194,6 +192,9 @@ html {
   height: 300px;
   top: 50px;
   left: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
 }
 .full-width {
   width: 100%;
@@ -208,6 +209,7 @@ html {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 320px 1fr 1fr 1fr;
   height: calc(320px + 1411px);
+  grid-gap: 15px;
 }
 
 .type4 {
@@ -233,21 +235,6 @@ html {
   font-size: 30px;
 }
 
-.white-black {
-  background-color: #333;
-  color: white;
-}
-
-.grey-black {
-  background-color: rgb(190, 190, 190);
-  color: black;
-}
-
-.darkgrey-black {
-  background-color: rgb(155, 153, 153);
-  color: black;
-}
-
 .content {
   overflow: hidden;
 }
@@ -268,6 +255,44 @@ html {
   text-align: center;
 }
 
-.light-grey {
-  background-color: rgb(199, 199, 199);
+.big img{
+  margin: 15% 36% 0;
+  width: 257px;
+  height: 290px;
 }
+
+.big h2{
+  text-align: center;
+  font-size: 35px;
+}
+
+ h2{
+  text-align: center;
+  font-size: 35px;
+}
+/*=======================
+  background and Colors
+  =======================*/
+  .light-grey {
+    background-color: #0000001c;
+  }
+
+  .white-black {
+    background-color: #333;
+    color: white;
+  }
+
+  .grey-black {
+    background-color: rgb(190, 190, 190);
+    color: black;
+  }
+
+  .darkgrey-black {
+    background-color: rgb(155, 153, 153);
+    color: black;
+  }
+
+  .type2 img{
+    margin: 20% 16%;;
+  }
+/*----------------------------------------
