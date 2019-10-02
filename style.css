@@ -224,6 +224,11 @@ html {
   display: flex;
   align-items: center;
 }
+
+.nav img {
+   width: 160px;
+  height: 58px;
+}
 .nav ul {
   display: flex;
   width: 100%;
