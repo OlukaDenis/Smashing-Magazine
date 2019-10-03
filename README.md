@@ -11,7 +11,7 @@ Read more about the project detailed description from the [Odin website](https:/
 
 ### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown)
 
-### [Live link](https://rawcdn.githack.com/OlukaDenis/Smashing-Magazine/3c1c8ba5349f7540a82ed171e30d8cf256c9fe3a/index.html)
+### [Live link](https://rawcdn.githack.com/OlukaDenis/Smashing-Magazine/97aa432e7722a72a26fd9c56c3745e3e3e5c5f7f/index.html)
 
 # Languages Used
 
